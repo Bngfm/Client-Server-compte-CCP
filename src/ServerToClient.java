@@ -11,7 +11,7 @@ public class ServerToClient implements Runnable{
 	PrintWriter out;
 	Scanner sc = new Scanner(System.in);
 
-		// CONSTRUCTOR \\
+            // CONSTRUCTOR \\
 	public ServerToClient(Socket toClient,BufferedReader in,PrintWriter out) throws IOException{
 		this.toClient = toClient;
 		this.in = in;

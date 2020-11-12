@@ -19,7 +19,7 @@ public class ServerToClient implements Runnable{
 		System.out.println("Server start..."+toClient);
 	}
 
-		// RUN THREAD METHOD \\
+            // RUN THREAD METHOD \\
 	public void run(){
 		String msg ; // MSG COMMING FROM CLIENTS \\
 		String response; // RESPONSE TO SEND TO CLIENTS \\

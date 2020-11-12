@@ -6,6 +6,7 @@ import java.io.*;
 			// CLIENT CLASS \\
 
 public class Client{
+    
 		// MATCH CLIENT INPUT TO SEND TO SERVER \\
 	public static String matching(String req){
 			req = req.replaceAll("\\s", ""); // supprimer les espaces
